@@ -38,7 +38,6 @@ public class LecturerSpace {
                        return;
                    }
                    ChairSpace chairSpace = new ChairSpace();
-                  // chairSpace.create();
                    List <unnLecturer> unnlecturers=response.body();
 
                    for (int i=0;i<unnlecturers.size();i++)
@@ -51,8 +50,10 @@ public class LecturerSpace {
                            Lecturer newlecturer = new Lecturer(unnlecturers.get(i));
                            lecturerService.saveLecturer(newlecturer);
                           Chair chair = chairService.findChairByName(unnlecturers.get(i).getChair());
-                          if (chair!=null)
+                          if (chair!=null){
                           newlecturer.addChair(chair);
+                          chair.AddLecturer(newlecturer);
+                          }
                           lecturerService.updateLecturer(newlecturer);
                        }
                        else {
@@ -62,6 +63,7 @@ public class LecturerSpace {
                                    Chair chair = chairService.findChairByName(unnlecturers.get(i).getChair());
                                    if (chair!=null)
                                    lecturers.get(i).addChair(chair);
+                                   chair.AddLecturer(lecturers.get(i));
                                    lecturerService.updateLecturer(lecturers.get(i));
                                    AlreadyIn = true;
                                    break;
@@ -70,6 +72,7 @@ public class LecturerSpace {
                            if(!AlreadyIn){
                                Lecturer newlecturer = new Lecturer(unnlecturers.get(i));
                                Chair chair = chairService.findChairByName(unnlecturers.get(i).getChair());
+                               chair.AddLecturer(newlecturer);
                                newlecturer.addChair(chair);
                                lecturerService.saveLecturer(newlecturer);
                            }

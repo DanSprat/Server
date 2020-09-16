@@ -33,6 +33,7 @@ public class GroupSpace  {
                         System.out.println("Code:" + response.code());
                         return;
                     }
+                    System.out.println("im here");
                     List<unnGroup> unnGroups = response.body();
                     List<Group> Groups = Translate(unnGroups);
                     for (int i = 1; i < Groups.size(); i++) {

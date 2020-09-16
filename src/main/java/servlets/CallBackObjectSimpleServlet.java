@@ -20,6 +20,9 @@ public class CallBackObjectSimpleServlet extends HttpServlet {
     private LecturerService lecturerService = new LecturerService();
     private GroupService groupService = new GroupService();
     private StudentService studentService = new StudentService();
+    public static final String ANSI_RESET = "\u001B[0m";
+    public static final String ANSI_PURPLE = "\u001B[35m";
+    public static final String ANSI_YELLOW = "\u001B[33m";
     public void init(ServletConfig servletConfig) {
         try {
             super.init(servletConfig);
@@ -30,18 +33,15 @@ public class CallBackObjectSimpleServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String string= req.getQueryString();
+        System.out.println(ANSI_YELLOW + string + ANSI_RESET);
         String gson = new String();
         String Name = req.getParameter("Name");
         if (!Name.equals("")) {
-
            List<Group> groups = groupService.findEqGroups(Name);
-
            List<Lecturer> lecturers = lecturerService.findEqLecturers(Name);
-
            List<Student> students = studentService.findEqStudents(Name);
-
            List <CallBackObject> objects= new ArrayList<CallBackObject>();
-
            for (Group group:groups){
                objects.add(new CallBackObject(group));
            }

@@ -27,10 +27,10 @@
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>32518</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|32940|32942|1
+      <Relations>sequence|table|24665|24667|1
 sequence|table|32927|32929|1
+sequence|table|32940|32942|1
 sequence|table|24830|24832|1
-sequence|table|24665|24667|1
 </Relations>
     </database>
     <role id="7" parent="1" name="pg_execute_server_program">
