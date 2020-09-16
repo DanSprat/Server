@@ -48,7 +48,7 @@ public class unnGroup {
         return formOfEducation;
     }
 
-    public Integer getGroupGid() {
+    public long getGroupGid() {
         return groupGid;
     }
 
@@ -103,7 +103,7 @@ public class unnGroup {
     private String formOfEducation;
     @SerializedName("groupGid")
     @Expose
-    private Integer groupGid;
+    private long groupGid;
     @SerializedName("groupOid")
     @Expose
     private Integer groupOid;

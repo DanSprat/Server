@@ -39,14 +39,12 @@ public class ChairSpace {
                          List<unnChair> unnChairs = response.body();
                          List<Chair> Chairs = Translate(unnChairs);
                         for (int i = 1; i < Chairs.size(); i++) {
-
                             ChairService chairService = new ChairService();
                              Chair chair = chairService.findChairByName(Chairs.get(i).getName());
                             if (chair==null)
                                 chairService.saveChair(Chairs.get(i));
                         }
                     }
-
                     @Override
                     public void onFailure(Throwable throwable) {
 

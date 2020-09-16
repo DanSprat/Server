@@ -20,7 +20,7 @@ public class Lecturer {
     @Column(name="unnid")
     private  int unnId;
 
-    @ManyToMany(cascade={CascadeType.ALL},fetch=FetchType.EAGER)
+    @ManyToMany(cascade={CascadeType.ALL},fetch=FetchType.LAZY)
     @JoinTable(name = "unn_lecturer_chair", joinColumns = {@JoinColumn(name = "lecturer_id")}, inverseJoinColumns = {@JoinColumn(name = "chair_id")})
     private List<Chair> chairs = new ArrayList<Chair>();
 
@@ -49,31 +49,24 @@ public class Lecturer {
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
-
     public String getName() {
         return Name;
     }
-
     public void setName(String name) {
         Name = name;
     }
-
     public int getUnnId() {
         return unnId;
     }
-
     public void setUnnId(int unnId) {
         this.unnId = unnId;
     }
-
     public List<Chair> getChairs() {
         return chairs;
     }
-
     public void setChairs(List<Chair> chairs) {
         this.chairs = chairs;
     }

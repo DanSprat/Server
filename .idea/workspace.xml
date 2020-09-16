@@ -6,7 +6,30 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d0e1b0b-f05a-4974-bfff-1161b8171f42" name="Default Changelist" comment="" />
+    <list default="true" id="1d0e1b0b-f05a-4974-bfff-1161b8171f42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnApp_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnApp_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc9c192f-1b82-4582-b3ff-1a91ff96637a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cc9c192f-1b82-4582-b3ff-1a91ff96637a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/unnApp_war_exploded/WEB-INF/classes/DataBaseSpace/LecturerSpace$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnApp_war_exploded/WEB-INF/classes/DataBaseSpace/LecturerSpace$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/unnApp_war_exploded/WEB-INF/classes/DataBaseSpace/LecturerSpace.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnApp_war_exploded/WEB-INF/classes/DataBaseSpace/LecturerSpace.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/unnApp_war_exploded/WEB-INF/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnApp_war_exploded/WEB-INF/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/unnApp_war_exploded/WEB-INF/classes/servlets/CallBackObjectSimpleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnApp_war_exploded/WEB-INF/classes/servlets/CallBackObjectSimpleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/unnApp_war_exploded/WEB-INF/classes/servlets/GroupSimpleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnApp_war_exploded/WEB-INF/classes/servlets/GroupSimpleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataBaseSpace/ChairSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataBaseSpace/ChairSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataBaseSpace/GroupSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataBaseSpace/GroupSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataBaseSpace/LecturerSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataBaseSpace/LecturerSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Lecturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Lecturer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/CallBackObjectSimpleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/CallBackObjectSimpleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unnModels/unnGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unnModels/unnGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataBaseSpace/LecturerSpace$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataBaseSpace/LecturerSpace$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataBaseSpace/LecturerSpace.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataBaseSpace/LecturerSpace.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/unnApp.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlets/CallBackObjectSimpleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/CallBackObjectSimpleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlets/GroupSimpleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/GroupSimpleServlet.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,14 +115,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/gson-2.2.2.jar!/META-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../First" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -113,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.53">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="unnApp" />
@@ -206,8 +230,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.unnApp-1.0-SNAPSHOT.jar" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JAR Application.unnApp-1.0-SNAPSHOT.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +267,19 @@
       <workItem from="1587831145910" duration="2415000" />
       <workItem from="1588074182453" duration="2972000" />
       <workItem from="1588158670371" duration="647000" />
-      <workItem from="1588409830175" duration="2120000" />
+      <workItem from="1588409830175" duration="3367000" />
+      <workItem from="1588417213603" duration="1039000" />
+      <workItem from="1590012087313" duration="579000" />
+      <workItem from="1590072089524" duration="1310000" />
+      <workItem from="1590093267193" duration="13026000" />
+      <workItem from="1598014581195" duration="811000" />
+      <workItem from="1599044607278" duration="4692000" />
+      <workItem from="1599410913282" duration="576000" />
+      <workItem from="1599502212012" duration="1205000" />
+      <workItem from="1599748326156" duration="575000" />
+      <workItem from="1600106878604" duration="5520000" />
+      <workItem from="1600197844853" duration="3290000" />
+      <workItem from="1600204519440" duration="15201000" />
     </task>
     <servers />
   </component>
@@ -255,7 +291,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -265,14 +303,29 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DataBaseSpace/GroupSpace.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/DataBaseSpace/LecturerSpace.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="10" />
+          <line>66</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="11" />
+          <line>23</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DataBaseSpace/LecturerSpace.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
